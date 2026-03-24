@@ -11,10 +11,9 @@
     transition: color 0.3s ease;
   }
 
-  /* Dark modeda matn rangi — oq, yaxshi ko'rinsin */
-  .dark body { color: rgba(240, 220, 235, 0.92); }
 
-  * { @apply box-sizing: border-box; }
+
+  * { box-sizing: border-box; }
 
   ::-webkit-scrollbar { width: 5px; height: 5px; }
   ::-webkit-scrollbar-track { background: transparent; }
